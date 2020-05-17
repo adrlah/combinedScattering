@@ -28,7 +28,7 @@ TAP_blockageAndBackscattering_FigX.m
 
 with X=[3 4 5] and simply run the code (F5). Script/scenario numbering coincides with figure numbering in [A]. 
 
-If you would like to compute amplitude-only NMSE results, set
+For computing amplitude-only NMSE results, set
 
 ```sh
 scenario.ampErrorOnly = true;
