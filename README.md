@@ -1,4 +1,4 @@
-# Simulator for "Computationally Efficient Millimeter-Wave Scattering Models: Combining Blockage and Backscattering"
+# Simulator for "Computationally Efficient Millimeter-Wave Scattering Models: A Combined Blockage and Backscattering Single-Scattering Model"
 (c) 2020 Adrián Lahuerta Lavieja and Martin Johansson;  
 e-mail: adrian.lahuerta@kuleuven.be and martin.n.johansson@ericsson.com
 
@@ -10,7 +10,7 @@ The software package is supplied "as is," without any accompanying support servi
 
 The code (or parts of it) may be used for non-profit purposes as long as the copyright notice is included and [A] is credited and cited.
 
-[A] A. Lahuerta-Lavieja, M. Johansson, U. Gustavsson, and G. A. E. Vandenbosch, "Computationally efficient millimeter-wave backscattering models: Combining blockage and backscattering," submitted to IEEE Trans. Antennas Propag., 2020.
+[A] A. Lahuerta-Lavieja, M. Johansson, C. Larsson, U. Gustavsson, and G. A. E. Vandenbosch, "Computationally efficient millimeter-wave backscattering models: A combined blockage and backscattering single-scattering model," submitted to IEEE Trans. Antennas Propag., 2020.
 
 ### How to set up the simulation environment
 
@@ -18,15 +18,15 @@ Download all the scripts and folders you can find in this project as they are ne
 
 ### How to start a simulation
 
-Navigate in Matlab to the directory containing the TAP_blockageAndBackscattering_FigX.m scripts.
+Navigate in Matlab to the directory containing the script TAP_combinedScattering.m.
 
-Open any of
+Open
 
 ```sh
-TAP_blockageAndBackscattering_FigX.m
+TAP_combinedScattering.m
 ``` 
 
-with X=[3 4 5] and simply run the code (F5). Script/scenario numbering coincides with figure numbering in [A]. 
+and simply run the code (F5). 
 
 For computing amplitude-only NMSE results, set
 
