@@ -26,7 +26,7 @@ Open
 TAP_combinedScattering.m
 ``` 
 
-and simply run the code (F5). 
+and simply run the code (F5). Scenario numbering coincides with figure numbering in [A].
 
 For computing amplitude-only NMSE results, set
 
