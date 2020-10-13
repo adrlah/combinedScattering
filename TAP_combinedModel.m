@@ -1,5 +1,6 @@
 function TAP_combinedModel
-% (c) 2020 Adri√°n Lahuerta Lavieja and Martin Johansson;
+
+% (c) 2020 Adri·n Lahuerta Lavieja and Martin Johansson;
 % e-mail: adrian.lahuerta@kuleuven.be and martin.n.johansson@ericsson.com
 
 % The code (or parts of it) may be used for non-profit purposes as long
@@ -9,7 +10,6 @@ function TAP_combinedModel
 % G. A. E. Vandenbosch, "Computationally efficient millimeter-wave 
 % backscattering models: A combined blockage and backscattering model,"
 % submitted to IEEE Trans. Antennas Propag., 2020.
-
 
 %% Scenario for testing blockage and backscattering
 scenario.number = 3; % Scenario from Fig. 3 in [A]
