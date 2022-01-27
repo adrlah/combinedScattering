@@ -1,5 +1,5 @@
 # Simulator for "Computationally Efficient Millimeter-Wave Scattering Models: A Combined Blockage and Backscattering Model"
-(c) 2020 Adrián Lahuerta Lavieja and Martin Johansson;  
+(c) 2022 Adrián Lahuerta Lavieja and Martin Johansson;  
 e-mail: adrian.lahuerta@kuleuven.be and martin.n.johansson@ericsson.com
 
 ### Important information
@@ -10,7 +10,7 @@ The software package is supplied "as is," without any accompanying support servi
 
 The code (or parts of it) may be used for non-profit purposes as long as the copyright notice is included and [A] is credited and cited.
 
-[A] A. Lahuerta-Lavieja, M. Johansson, C. Larsson, U. Gustavsson, and G. A. E. Vandenbosch, "Computationally efficient millimeter-wave backscattering models: A combined blockage and backscattering model," submitted to IEEE Trans. Antennas Propag., 2020.
+[A] A. Lahuerta-Lavieja, M. Johansson, C. Larsson, U. Gustavsson, and G. A. E. Vandenbosch, "Computationally efficient millimeter-wave scattering models: A combined blockage and backscattering model," submitted to IEEE Trans. Antennas Propag., 2020.
 
 ### How to set up the simulation environment
 
