@@ -9,13 +9,10 @@ function TAP_combinedModel
 % [A] A. Lahuerta-Lavieja, M. Johansson, C. Larsson, U. Gustavsson, and 
 % G. A. E. Vandenbosch, "Computationally efficient millimeter-wave 
 % backscattering models: A combined blockage and backscattering model,"
-% submitted to IEEE Trans. Antennas Propag., 2020.
+% submitted to IEEE Antennas Wireless Propag. Lett., 2022.
 
 %% Scenario for testing blockage and backscattering
 scenario.number = 3; % Scenario from Fig. 3 in [A]
-
-% Would you like to compute amplitude-only NMSE?
-scenario.ampErrorOnly = false;
 
 %% Print scenario
 fprintf(['\n Scenario ' num2str(scenario.number) ' \n \n'])
@@ -1088,7 +1085,7 @@ if y.available
     idx = idx(11:end-10); % For 0.1 deg resolution, remove 1 deg at beginning and end
     
     for i = 1:b
-        errorTable(i,1) = 10*log10(NMSE(scenario, y.results(idx), xEst(idx, i)));
+        errorTable(i,1) = 10*log10(NMSE(y.results(idx), xEst(idx, i)));
     end
     metric  = 'momNMSEdB';    
     
@@ -1102,14 +1099,10 @@ else
 end
 end
 
-function NMSE = NMSE(scenario, x, xEst)
+function NMSE = NMSE(x, xEst)
 idx = find(not(isnan(xEst)));
 x    = x(idx);
 xEst = xEst(idx);
-if scenario.ampErrorOnly
-    x    = abs(x);
-    xEst = abs(xEst);
-end
 NMSE  = sum(abs(x - xEst).^2)/sum(abs(x).^2);
 end
 
