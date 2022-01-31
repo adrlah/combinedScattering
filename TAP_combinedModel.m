@@ -36,7 +36,7 @@ scenario                     = getSweepVariable(scenario);
 PO                           = getPOresults(scenario, PO);
 MoM                          = getMoMresults(scenario, MoM);
 [scenario, models]           = calculateModels(scenario, models, scattSurf0, txSurf0, rxSurf0);
-getErrorMetric(scenario, MoM, models);
+getErrorMetric(MoM, models);
 plotResults(scenario, PO, MoM, models);
 end
 
@@ -1071,7 +1071,7 @@ E_theta=pol(1)*ones(size(theta+phi));
 E_phi  =pol(2)*ones(size(theta+phi));
 end
 
-function [errorTable, extraError] = getErrorMetric(scenario, y, models)
+function [errorTable, extraError] = getErrorMetric(y, models)
 % y is the MoM reference
 % xEst is the estimation
 
