@@ -28,14 +28,6 @@ TAP_combinedScattering.m
 
 and simply run the code (F5). Scenario numbering coincides with figure numbering in [A].
 
-For computing amplitude-only NMSE results, set
-
-```sh
-scenario.ampErrorOnly = true;
-``` 
-
-in line 6.
-
 ### Version history
 - Version 0.1: adrian.lahuerta@kuleuven.be - simplified/commented code for GitHub
 
