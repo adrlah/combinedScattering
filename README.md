@@ -1,6 +1,6 @@
 # Simulator for "Computationally Efficient Millimeter-Wave Scattering Models: A Combined Blockage and Backscattering Model"
 (c) 2020 Adrián Lahuerta Lavieja and Martin Johansson;  
-e-mail: adrian.lahuerta@kuleuven.be and martin.n.johansson@ericsson.com
+e-mail: adrian.lahuerta.lavieja@ericsson.com and martin.n.johansson@ericsson.com
 
 ### Important information
 
