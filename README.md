@@ -29,7 +29,7 @@ TAP_combinedScattering.m
 and simply run the code (F5). Scenario numbering coincides with figure numbering in [A].
 
 ### Version history
-- Version 0.1: adrian.lahuerta@kuleuven.be - simplified/commented code for GitHub
+- Version 0.1: adrian.lahuerta.lavieja@ericsson.com - simplified/commented code for GitHub
 
 ### Final remark
 
